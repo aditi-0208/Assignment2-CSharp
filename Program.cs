@@ -3,7 +3,7 @@
 // Subscription Revenue Calculator
 // =====================================
 
-/*Console.Write("Enter the current number of customers: ");
+Console.Write("Enter the current number of customers: ");
 int customers = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter the monthly price per customer: ");
@@ -22,13 +22,13 @@ Console.WriteLine();
 Console.WriteLine($"Current monthly revenue: ${currentRevenue:F2}");
 Console.WriteLine($"Projected monthly revenue: ${projectedRevenue:F2}");
 Console.WriteLine($"Increase in monthly revenue: ${revenueIncrease:F2}");
-*/
+
 // =====================================
 // QUESTION 2
 // Investment Doubling Time
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 Console.Write("Enter the annual return rate as a percentage (greater than 0): ");
 double returnPercent = Convert.ToDouble(Console.ReadLine());
 
@@ -58,13 +58,13 @@ else
     Console.WriteLine($"Doubling time: {doublingYears:F2} years");
     Console.WriteLine($"Classification: {category}");
 }
-*/
+
 // =====================================
 // QUESTION 3
 // Triangle Area (Heron's Formula)
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 double sideA = 0;
 double sideB = 0;
 double sideC = 0;
@@ -105,13 +105,13 @@ if (validInput)
         Console.WriteLine($"Triangle area: {triangleArea:F2}");
     }
 }
-*/
+
 // =====================================
 // QUESTION 4
 // Cloud Usage Invoice
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 Console.Write("Enter the number of compute hours used: ");
 decimal computeHours = Convert.ToDecimal(Console.ReadLine());
 
@@ -143,13 +143,13 @@ else
     Console.WriteLine($"Service fee (5%): ${serviceFee:F2}");
     Console.WriteLine($"Total invoice: ${totalInvoice:F2}");
 }
-*/
+
 // =====================================
 // QUESTION 5
 // Daily Sales Entry with a Sentinel
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 int saleCount = 0;
 decimal totalSales = 0;
 
@@ -184,13 +184,13 @@ else
     Console.WriteLine($"Total sales: ${totalSales:F2}");
     Console.WriteLine($"Average sale: ${averageSale:F2}");
 }
-*/
+
 // =====================================
 // QUESTION 6
 // Investment Payback Simulator
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 Console.Write("Enter the initial investment: ");
 decimal initialInvestment = Convert.ToDecimal(Console.ReadLine());
 
@@ -226,13 +226,13 @@ else
         Console.WriteLine($"The investment was not recovered within {maxMonths} months.");
     }
 }
-*/
+
 // =====================================
 // QUESTION 7
 // Weekly Demand Bar Chart
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 int[] weeklyDemand = new int[7];
 
 for (int fillIndex = 0; fillIndex < 7; fillIndex++)
@@ -266,13 +266,13 @@ for (int dayIndex = 0; dayIndex < 7; dayIndex++)
 
     Console.WriteLine();
 }
-*/
+
 // =====================================
 // QUESTION 8
 // Customer Risk Score
 // =====================================
 
-/*int ComputeRiskScore(int missedPayments, int supportTickets, int monthsInactive)
+int ComputeRiskScore(int missedPayments, int supportTickets, int monthsInactive)
 {
     return missedPayments * 20 + supportTickets * 5 + monthsInactive * 8;
 }
@@ -312,13 +312,13 @@ else
     Console.WriteLine($"Risk score: {riskScore}");
     Console.WriteLine($"Risk level: {riskLevel}");
 }
-*/
+
 // =====================================
 // QUESTION 9
 // Transaction Anomaly Screening
 // =====================================
 
-/*Console.WriteLine();
+Console.WriteLine();
 Console.Write("How many transactions will be entered (3 to 20)? ");
 int transactionCount = Convert.ToInt32(Console.ReadLine());
 
@@ -390,7 +390,7 @@ for (int labelIndex = 0; labelIndex < transactionCount; labelIndex++)
 
     Console.WriteLine($"Transaction {labelIndex + 1}: ${transactionAmounts[labelIndex]:F2} - {label}");
 }
-*/
+
 // =====================================
 // QUESTION 10
 // Seven Day Performance Summary
